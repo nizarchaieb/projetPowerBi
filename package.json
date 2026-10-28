@@ -1,0 +1,9 @@
+{
+  "name": "ventepilot",
+  "version": "3.1.0",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix client test && npm --prefix server test",
+    "build": "npm --prefix client run build"
+  }
+}
